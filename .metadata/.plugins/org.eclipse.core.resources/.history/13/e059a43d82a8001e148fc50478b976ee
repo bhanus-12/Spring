@@ -1,0 +1,5 @@
+package com.bhanu.springcoreadvanced.springjdbc;
+
+public interface EmployeeDAO {
+
+}

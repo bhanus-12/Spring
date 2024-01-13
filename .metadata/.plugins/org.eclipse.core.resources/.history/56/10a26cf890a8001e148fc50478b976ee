@@ -1,0 +1,20 @@
+package com.bhanu.springcoreadvanced.springjdbc.dao.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Component;
+
+import com.bhanu.springcoreadvanced.springjdbc.dao.EmployeeDAO;
+import com.bhanu.springcoreadvanced.springjdbc.dto.Employee;
+@Component("dao")
+public class EmployeeDAOImpl implements EmployeeDAO {
+	@Autowired
+	JdbcTemplate jdbcTemplate;
+	@Override
+	public int create(Employee employee) {
+		String sql="insert into employees values(?,?,?)";
+		jdbcTemplate.update(sql,employee.getId(),employee.getFname(),employee.getLastname());
+		return 0;
+	}
+
+}

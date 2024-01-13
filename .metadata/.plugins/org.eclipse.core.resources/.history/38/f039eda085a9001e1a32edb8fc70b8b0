@@ -1,0 +1,8 @@
+package com.bhanu.springcoreadvanced.springorm1.product.dao;
+
+import com.bhanu.springcoreadvanced.springorm1.product.entities.Product;
+
+public class ProductDAOImpl implements ProductDAO {
+	int create(Product product);
+
+}

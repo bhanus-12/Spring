@@ -1,0 +1,14 @@
+package com.bhanu.springcoreadvanced.springjdbc.dao.impl;
+
+import com.bhanu.springcoreadvanced.springjdbc.dao.EmployeeDAO;
+import com.bhanu.springcoreadvanced.springjdbc.dto.Employee;
+
+public class EmployeeDAOImpl implements EmployeeDAO {
+
+	@Override
+	public int create(Employee employee) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

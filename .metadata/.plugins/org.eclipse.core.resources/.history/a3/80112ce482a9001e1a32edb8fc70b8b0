@@ -1,0 +1,5 @@
+package com.bhanu.springcoreadvanced.springorm1.product.entities;
+
+public class Product {
+
+}
