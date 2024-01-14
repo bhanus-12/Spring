@@ -1,7 +1,0 @@
-package com.bhanu.springcoreadvanced.springjdbc.dao;
-
-public interface EmployeeDAO {
-	
-	int create(Employee);
-
-}

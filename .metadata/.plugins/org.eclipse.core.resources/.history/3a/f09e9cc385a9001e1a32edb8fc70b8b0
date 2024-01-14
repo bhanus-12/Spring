@@ -1,6 +1,0 @@
-package com.bhanu.springcoreadvanced.springorm1.product.dao;
-
-public interface ProductDAO {
-	int create(Product product)
-
-}

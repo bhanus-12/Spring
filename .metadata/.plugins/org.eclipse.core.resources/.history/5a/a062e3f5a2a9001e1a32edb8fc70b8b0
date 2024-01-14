@@ -1,9 +1,0 @@
-package com.bhanu.springcoreadvanced.springorm1.product.dao;
-
-import com.bhanu.springcoreadvanced.springorm1.product.entities.Product;
-
-public interface ProductDAO {
-	int create(Product product);
-	int update(Product product);
-	int delete(int id);
-}

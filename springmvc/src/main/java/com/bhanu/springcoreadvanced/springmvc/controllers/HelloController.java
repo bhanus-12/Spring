@@ -10,6 +10,19 @@ public class HelloController {
 	public ModelAndView HelloView() {
 		ModelAndView modelAndView = new ModelAndView();
 		modelAndView.setViewName("hello");
+		modelAndView.addObject("id", 123);
+		modelAndView.addObject("name", "Bhanu");
+		modelAndView.addObject("salary",20000.00);
+		return modelAndView;
+		
+	}
+	@RequestMapping("displayObject")
+	public ModelAndView displayView() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("display");
+		modelAndView.addObject("id", 123);
+		modelAndView.addObject("name", "Bhanu");
+		modelAndView.addObject("salary",20000.00);
 		return modelAndView;
 		
 	}

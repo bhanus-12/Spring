@@ -1,9 +1,0 @@
-package com.bhanu.springcoreadvanced.springmvc.controllers;
-
-import org.springframework.stereotype.Controller;
-
-@Controller
-public class HelloController {
-	
-
-}
