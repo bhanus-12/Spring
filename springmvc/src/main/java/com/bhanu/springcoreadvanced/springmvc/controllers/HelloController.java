@@ -4,6 +4,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.bhanu.springcoreadvanced.springmvc.controllers.dto.Employee;
+
 @Controller
 public class HelloController {
 	@RequestMapping("/hello")
@@ -16,15 +18,5 @@ public class HelloController {
 		return modelAndView;
 		
 	}
-	@RequestMapping("displayObject")
-	public ModelAndView displayView() {
-		ModelAndView modelAndView = new ModelAndView();
-		modelAndView.setViewName("display");
-		modelAndView.addObject("id", 123);
-		modelAndView.addObject("name", "Bhanu");
-		modelAndView.addObject("salary",20000.00);
-		return modelAndView;
-		
-	}
-
+	
 }
