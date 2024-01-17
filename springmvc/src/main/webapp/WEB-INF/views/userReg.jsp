@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<form action="registerUser">
+<form action="registerUser" method="post">
 <pre>
 Id: <input type="number" name="id"/>
 
