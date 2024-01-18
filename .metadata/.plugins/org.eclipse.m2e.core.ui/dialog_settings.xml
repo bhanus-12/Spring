@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="G:\Spring-Repo\"/>
+			<item value="G:\Spring-Repo"/>
+			<item value="G:\Spring-Repo\springmvc"/>
 			<item value="G:\myworkspace\springjdbc\src\main\java\com\bhanu\springcoreadvanced\springjdbc\test\Test.java"/>
 			<item value="G:\myworkspace"/>
 		</list>
@@ -27,20 +30,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.bhanu.springcoreadvanced.springorm1"/>
-			<item value="com.bhanu.springcoreadvanced.springorm"/>
-			<item value="com.bhanu.springcoreadvanced.springjdbc"/>
-			<item value="com.bhanu.demo"/>
+			<item value="com.bhanu.spring.springcoreadvanced.springmvcorm"/>
 		</list>
 		<list key="groupId">
-			<item value="com.bhanu.springcoreadvanced"/>
-			<item value="com.bhanu"/>
+			<item value="com.bhanu.spring.springcoreadvanced"/>
 		</list>
 		<list key="artifactId">
-			<item value="springorm1"/>
-			<item value="springorm"/>
-			<item value="springjdbc"/>
-			<item value="demo"/>
+			<item value="springmvcorm"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
