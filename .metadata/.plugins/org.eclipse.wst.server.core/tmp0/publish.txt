@@ -1,3 +1,0 @@
-#Tomcat publish data
-#Thu Jan 18 18:23:40 IST 2024
-org.eclipse.jst.j2ee.server\:springjdbc=WEB-INF/lib/springjdbc-0.0.1-SNAPSHOT.jar
