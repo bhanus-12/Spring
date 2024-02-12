@@ -1,6 +1,13 @@
 package com.springmvcorm.user.entities;
 
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Entity
+@Table(name="users")
 public class User {
+	@Id
 	private int id;
 	private String name;
 	private String email;
@@ -28,4 +35,5 @@ public class User {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+
 }

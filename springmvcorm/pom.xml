@@ -12,7 +12,8 @@
 		<springframework.version>4.3.6.RELEASE</springframework.version>
 	</properties>
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api -->
+		<!--
+		https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api -->
 		<dependency>
 			<groupId>javax.annotation</groupId>
 			<artifactId>javax.annotation-api</artifactId>
@@ -56,7 +57,29 @@
 			<artifactId>ojdbc6</artifactId>
 			<version>11.2.0.4</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.oracle.ojdbc/ojdbc8 -->
+		<dependency>
+			<groupId>com.oracle.ojdbc</groupId>
+			<artifactId>ojdbc8</artifactId>
+			<version>19.3.0.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc10 -->
+		<dependency>
+			<groupId>com.oracle.database.jdbc</groupId>
+			<artifactId>ojdbc10</artifactId>
+			<version>19.3.0.0</version>
+		</dependency>
 
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>taglibs</groupId>
+			<artifactId>standard</artifactId>
+			<version>1.1.2</version>
+		</dependency>
 		<dependency>
 			<groupId>com.bhanu.springcoreadvanced</groupId>
 			<artifactId>springjdbc</artifactId>

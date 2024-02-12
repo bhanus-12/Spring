@@ -5,18 +5,22 @@
 	xmlns:c="http://www.springframework.org/schema/c"
 	xmlns:tx="http://www.springframework.org/schema/tx"
 	xmlns:util="http://www.springframework.org/schema/util"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
    http://www.springframework.org/schema/context
    http://www.springframework.org/schema/context/spring-context.xsd
    http://www.springframework.org/schema/tx
    http://www.springframework.org/schema/tx/spring-tx.xsd">
 	
 	<context:annotation-config />
+	<tx:annotation-driven/>
    <context:component-scan base-package="com.springmvcorm.user"/>
 
 	<bean
-		class="org.springframework.jdbc.datasource.DriverManagerDataSource"
-		name="dataSource" p:url="jdbc:oracle:thin:@localhost:1522/ORACLE"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource" 
+		name="dataSource" 
+		p:driverClassName="oracle.jdbc.driver.OracleDriver"
+		p:url="jdbc:oracle:thin:@localhost:1521/orcl" 
 		p:username="system" p:password="admin" />
 
 	<bean
@@ -36,7 +40,7 @@
 	</bean>
 	<bean class="org.springframework.orm.hibernate5.HibernateTemplate"
 		name="hibernateTemplate" p:sessionFactory-ref="sessionFactory" />
-	<bean class="com.springmvcorm.user.entities.UserDAOImpl"
+	<bean class="com.springmvcorm.user.dao.impl.UserDaoImpl"
 		name="dao" />
 
 	<bean
