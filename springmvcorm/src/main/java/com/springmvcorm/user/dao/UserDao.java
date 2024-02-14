@@ -10,4 +10,5 @@ import com.springmvcorm.user.entities.User;
 public interface UserDao {
 	public int create(User user);
 	public List<User> getUsers();
+	public User getUser(int id);
 }

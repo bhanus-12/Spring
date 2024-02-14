@@ -31,4 +31,11 @@ public class UserDaoImpl implements UserDao {
 		return hibernateTemplate.loadAll(User.class);
 	}
 
+
+	@Override
+	public User getUser(int id) {
+		// TODO Auto-generated method stub
+		return hibernateTemplate.get(User.class,id);
+	}
+
 }

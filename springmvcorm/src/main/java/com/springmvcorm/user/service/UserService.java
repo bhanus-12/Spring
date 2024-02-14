@@ -8,5 +8,6 @@ public interface UserService {
 	
 	int save(User user);
 	List<User> findAll();
+	public User validateId(int id);
 
 }

@@ -32,4 +32,10 @@ public class UserServiceImpl implements UserService {
 		return users;
 	}
 
+	@Override
+	public User validateId(int id) {
+		// TODO Auto-generated method stub
+		return dao.getUser(id);
+	}
+
 }
