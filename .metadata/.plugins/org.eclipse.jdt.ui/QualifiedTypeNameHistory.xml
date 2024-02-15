@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="com.bhanu.springcoreadvanced.springmvc.controllers.dto.Employee"/>
     <fullyQualifiedTypeName name="com.bhanu.springcoreadvanced.springmvc.controllers.dto.User"/>
     <fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
     <fullyQualifiedTypeName name="org.springframework.orm.hibernate5.HibernateTemplate"/>
     <fullyQualifiedTypeName name="com.springmvcorm.user.dao.UserDao"/>
     <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
@@ -33,4 +32,14 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.JoinPoint"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.After"/>
+    <fullyQualifiedTypeName name="com.bhanu.springaop.product.ProductService"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Around"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterReturning"/>
 </qualifiedTypeNameHistroy>
