@@ -31,13 +31,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.bhanu.spring"/>
 			<item value="com.bhanu.spring.springcoreadvanced.springaop"/>
 			<item value="com.bhanu.spring.springcoreadvanced.springmvcorm"/>
 		</list>
 		<list key="groupId">
+			<item value="com.bhanu.spring"/>
 			<item value="com.bhanu.spring.springcoreadvanced"/>
 		</list>
 		<list key="artifactId">
+			<item value="springjavaconfig"/>
 			<item value="springaop"/>
 			<item value="springmvcorm"/>
 		</list>
